@@ -21,7 +21,7 @@ public class prueba {
 		query.setParameter(2, "10002");
 		TbUsuario u = (TbUsuario) query.getSingleResult();
 		if(u!=null){		
-			System.out.println("Bienvenido " + u.getNomUsua() + " " + u.getApeUsua());
+			System.out.println("Bienvenido "+u.getNomUsua()+" "+u.getApeUsua());
 			System.out.println("Tus datos son : " + u);	
 		} else{
 			System.out.println("El usuario no existe");
