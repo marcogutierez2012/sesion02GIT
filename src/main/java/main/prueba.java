@@ -18,7 +18,7 @@ public class prueba {
 		List<TbUsuario> lstUsuarios = em.createQuery("Select t From TbUsuario t", TbUsuario.class).getResultList();
 		System.out.println("Número de usuarios : " + lstUsuarios.size());
 
-		
+		//hola
 		
 		
 	}
